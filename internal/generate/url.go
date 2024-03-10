@@ -1,6 +1,6 @@
 package generate
 
-var domainName = "http://localhost:8080/"
+var domainName = "https://zipfy.xyz"
 
 func ShortenURL(id int) string {
 	return domainName + UUIDFromInt(id)
